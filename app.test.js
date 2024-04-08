@@ -5,11 +5,11 @@ const items = require("./fakeDb");
 
 const app = require("./app");
 
-const data1 = { name: "test", price: 1.45 };
+const testingData = { name: "test", price: 1.45 };
 
 beforeEach(function () {
   items.length = 0;
-  items.push(data1);
+  items.push(testingData);
 });
 
 afterEach(function () {
