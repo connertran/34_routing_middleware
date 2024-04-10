@@ -10,11 +10,11 @@ const data2 = { name: "cheerios", price: 3.4 };
 items.push(data1);
 items.push(data2);
 
-router.get("", function (req, res) {
+router.get("/", function (req, res) {
   return res.json(items);
 });
 
-router.post("", function (req, res, next) {
+router.post("/", function (req, res, next) {
   try {
     if (!req.body.name || !req.body.price) {
       throw new ExpressError("Info is missing", 400);
