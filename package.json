@@ -2,15 +2,22 @@
   "name": "routing_middleware",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connertran/34_routing_middleware.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connertran/34_routing_middleware/issues"
+  },
+  "homepage": "https://github.com/connertran/34_routing_middleware#readme",
   "dependencies": {
-    "body-parser": "^1.20.2",
     "express": "^4.19.2",
     "path-to-regexp": "^6.2.2"
   },
